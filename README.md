@@ -1,5 +1,5 @@
 Team Treehouse Techdegree - Full Stack JavaScript
-# 04-oop-game-show-app-teamtreehouse
+# Project 4 - OOP Game App
 
 ## Goal
 Create a browser-based, word guessing game: "Phrase Hunter." 
