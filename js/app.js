@@ -1,11 +1,18 @@
 /* Treehouse FSJS Techdegree
  * Project 4 - OOP Game App
  * app.js */
+const phrases = [
+    'Keep Your Eyes Peeled',
+    'Up In Arms',
+    'Cry Wolf',
+    'Quick and Dirty',
+    'Raining Cats and Dogs'
+];
 
- document.getElementByID('btn__reset').addEventListener('click', () => {
- 	const game = new Game();
- 	startGame();
- });
+document.getElementById('btn__reset').addEventListener('click', () => {
+    const game = new Game(phrases);
+    game.startGame();
+});
 
 /*
 Add click event listeners to each of the onscreen keyboard buttons, 

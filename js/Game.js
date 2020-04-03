@@ -16,13 +16,18 @@ class Game {
     method on the active Phrase object.
     */
     startGame() {
+    	document.getElementById('overlay').style.display = 'none';
+    	this.getRandomPhrase();
 
     }
 
     /*
-    This method randomly retrieves one of the phrases stored in the phrases array and returns it.*/
+    This method randomly retrieves one of the phrases stored in the phrases array and 
+    returns it.
+    */
     getRandomPhrase() {
-
+    	let count = Math.floor(Math.random() * this.phrases.length);
+    	return this.phrases[count];
     }
 
     /*
