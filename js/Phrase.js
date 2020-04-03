@@ -18,7 +18,21 @@ class Phrase {
     CSS class for letters and the space CSS class for spaces.
     */
     addPhraseToDisplay() {
+        this.phrase.split('').forEach(char => {
+            const li = document.createElement('li'),
+                regChar = /[a-zA-Z]/g,
+                regSpace = /\s/g;
 
+            li.textContent = char;
+            
+            if (char.match(regChar)) {
+                li.className = `hide letter ${char}`;
+            } else if (char.match(regSpace)) {
+                li.className = 'space';
+            }
+
+            document.querySelector('#phrase ul').appendChild(li);
+        })
     }
 
     /*
