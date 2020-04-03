@@ -17,8 +17,9 @@ class Game {
     */
     startGame() {
     	document.getElementById('overlay').style.display = 'none';
-    	this.getRandomPhrase();
-
+    	this.activePhrase = new Phrase(this.getRandomPhrase());
+    	// this.addPhraseToDisplay(this.activePhrase);
+    	console.log(this.activePhrase);
     }
 
     /*
