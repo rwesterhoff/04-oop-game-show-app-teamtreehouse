@@ -38,8 +38,8 @@ class Phrase {
     /*
  	Checks to see if the letter selected by the player matches a letter in the phrase.
 	*/
-    checkLetter() {
-
+    checkLetter(letter) {
+        return this.phrase.match(letter);
     }
 
     /*

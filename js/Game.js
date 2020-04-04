@@ -16,10 +16,10 @@ class Game {
     method on the active Phrase object.
     */
     startGame() {
-    	document.getElementById('overlay').style.display = 'none';
-    	this.activePhrase = new Phrase(this.getRandomPhrase());
-    	this.activePhrase.addPhraseToDisplay();
-    	console.log(this.activePhrase);
+        document.getElementById('overlay').style.display = 'none';
+        this.activePhrase = new Phrase(this.getRandomPhrase());
+        this.activePhrase.addPhraseToDisplay();
+        console.log(this.activePhrase);
     }
 
     /*
@@ -27,20 +27,24 @@ class Game {
     returns it.
     */
     getRandomPhrase() {
-    	let count = Math.floor(Math.random() * this.phrases.length);
-    	return this.phrases[count];
+        let count = Math.floor(Math.random() * this.phrases.length);
+        return this.phrases[count];
     }
 
     /*
     This method controls most of the game logic. It checks to see if the 
     button clicked by the player matches a letter in the phrase, and then 
     directs the game based on a correct or incorrect guess. This method should:
-	- Disable the selected letter’s onscreen keyboard button.
-	- If the phrase does not include the guessed letter, add the wrong CSS class to the selected letter's keyboard button and call the removeLife() method.
-	- If the phrase includes the guessed letter, add the chosen CSS class to the selected letter's keyboard button, call the showMatchedLetter() method on the phrase, and then call the checkForWin() method. If the player has won the game, also call the gameOver() method.
-	*/
-    handleInteraction() {
-        console.log('handled!');
+    - Disable the selected letter’s onscreen keyboard button.
+    - If the phrase does not include the guessed letter, add the wrong CSS class to the selected letter's keyboard button and call the removeLife() method.
+    - If the phrase includes the guessed letter, add the chosen CSS class to the selected letter's keyboard button, call the showMatchedLetter() method on the phrase, and then call the checkForWin() method. If the player has won the game, also call the gameOver() method.
+    */
+    handleInteraction(key) {
+        if (this.activePhrase.checkLetter(key.textContent)) { 
+            key.classList.add('chosen');
+        } else { 
+            key.classList.add('wrong'); 
+        }
     }
 
     /*

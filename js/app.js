@@ -24,7 +24,7 @@ Add click event listeners to each of the onscreen keyboard buttons,
  should not result in the handleInteraction() method being called.
 */
 document.getElementById('qwerty').addEventListener('click', e => {
-    if (e.target.className == 'key') game.handleInteraction();
+    if (e.target.className == 'key') game.handleInteraction(e.target);
 });
 
 /*
