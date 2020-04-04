@@ -19,7 +19,6 @@ class Game {
         document.getElementById('overlay').style.display = 'none';
         this.activePhrase = new Phrase(this.getRandomPhrase());
         this.activePhrase.addPhraseToDisplay();
-        console.log(this.activePhrase);
     }
 
     /*
@@ -42,6 +41,7 @@ class Game {
     handleInteraction(key) {
         if (this.activePhrase.checkLetter(key.textContent)) { 
             key.classList.add('chosen');
+            this.activePhrase.showMatchedLetter(key.textContent);
         } else { 
             key.classList.add('wrong'); 
         }
