@@ -8,9 +8,10 @@ const phrases = [
     'Quick and Dirty',
     'Raining Cats and Dogs'
 ];
+let game = undefined;
 
 document.getElementById('btn__reset').addEventListener('click', () => {
-    const game = new Game(phrases);
+    game = new Game(phrases);
     game.startGame();
 });
 
@@ -22,6 +23,9 @@ Add click event listeners to each of the onscreen keyboard buttons,
  Clicking the space between and around the onscreen keyboard buttons 
  should not result in the handleInteraction() method being called.
 */
+document.getElementById('qwerty').addEventListener('click', e => {
+    if (e.target.className == 'key') game.handleInteraction();
+});
 
 /*
 Resetting the gameboard between games.

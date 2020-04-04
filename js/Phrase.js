@@ -20,11 +20,11 @@ class Phrase {
     addPhraseToDisplay() {
         this.phrase.split('').forEach(char => {
             const li = document.createElement('li'),
-                regChar = /[a-zA-Z]/g,
+                regChar = /[a-z]/g,
                 regSpace = /\s/g;
 
             li.textContent = char;
-            
+
             if (char.match(regChar)) {
                 li.className = `hide letter ${char}`;
             } else if (char.match(regSpace)) {

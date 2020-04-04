@@ -40,7 +40,7 @@ class Game {
 	- If the phrase includes the guessed letter, add the chosen CSS class to the selected letter's keyboard button, call the showMatchedLetter() method on the phrase, and then call the checkForWin() method. If the player has won the game, also call the gameOver() method.
 	*/
     handleInteraction() {
-
+        console.log('handled!');
     }
 
     /*
