@@ -7,8 +7,9 @@ class Game {
         this.missed = 0;
         this.phrases = phrases;
         this.activePhrase = null;
+        this.overlay = document.getElementById('overlay');
     }
-
+    
     /*
     Hides the start screen overlay, calls the getRandomPhrase() method, 
     and sets the activePhrase property with the chosen phrase. It also 
@@ -16,7 +17,7 @@ class Game {
     method on the active Phrase object.
     */
     startGame() {
-        document.getElementById('overlay').style.display = 'none';
+        this.overlay.style.display = 'none';
         this.activePhrase = new Phrase(this.getRandomPhrase());
         this.activePhrase.addPhraseToDisplay();
     }
@@ -42,6 +43,7 @@ class Game {
         if (this.activePhrase.checkLetter(key.textContent)) {
             key.classList.add('chosen');
             this.activePhrase.showMatchedLetter(key.textContent);
+            if (this.checkForWin()) this.gameOver('win', "You've won!");
         } else {
             key.classList.add('wrong');
             this.removeLife();
@@ -59,23 +61,16 @@ class Game {
             increaseMissed = () => {
                 this.missed += 1
             };
+        let counter = tries.length - (this.missed + 1);
 
-        console.log(`Before: ${this.missed}`);
-
-        let counter = tries.length - (this.missed + 1),
-            liveHeart = tries[counter];
-
-        // liveHeart.src.replace('liveHeart.png', 'lostHeart.png');
-        console.log(counter);
+        tries[counter].setAttribute('src', 'images/lostHeart.png');
 
         if (this.missed <= tries.length - 2) {
             increaseMissed();
         } else {
             increaseMissed();
-            this.gameOver();
+            this.gameOver('lose', "Sorry, you've lost.");
         }
-
-        console.log(`After: ${this.missed}`);
     }
 
     /*
@@ -83,7 +78,7 @@ class Game {
     in the active phrase.
     */
     checkForWin() {
-
+        return document.querySelectorAll('.hide.letter').length === 0;
     }
 
     /*
@@ -92,7 +87,9 @@ class Game {
     message, and replaces the overlay’s start CSS class with either the win 
     or lose CSS class.
     */
-    gameOver() {
-        console.log('GAME OVER!!');
+    gameOver(styling, message) {
+        this.overlay.className = styling;
+        this.overlay.style.display = 'inherit';
+        this.overlay.firstElementChild.textContent = message;
     }
 }
