@@ -39,13 +39,21 @@ class Game {
     - If the phrase does not include the guessed letter, add the wrong CSS class to the selected letter's keyboard button and call the removeLife() method.
     - If the phrase includes the guessed letter, add the chosen CSS class to the selected letter's keyboard button, call the showMatchedLetter() method on the phrase, and then call the checkForWin() method. If the player has won the game, also call the gameOver() method.
     */
-    handleInteraction(key) {
-        if (this.activePhrase.checkLetter(key.textContent)) {
-            key.classList.add('chosen');
-            this.activePhrase.showMatchedLetter(key.textContent);
+    handleInteraction(letter) {
+
+        function styleKey(styling) {
+            const keys = document.querySelectorAll('.key');
+            keys.forEach(key => {
+                if (key.textContent == letter) key.classList.add(styling)
+            })
+        };
+
+        if (this.activePhrase.checkLetter(letter)) {
+            styleKey('chosen');
+            this.activePhrase.showMatchedLetter(letter);
             if (this.checkForWin()) this.gameOver('win', "You've won!");
         } else {
-            key.classList.add('wrong');
+            styleKey('wrong');
             this.removeLife();
         }
     }
@@ -68,7 +76,6 @@ class Game {
         if (this.missed <= tries.length - 2) {
             increaseMissed();
         } else {
-            increaseMissed();
             this.gameOver('lose', "Sorry, you've lost.");
         }
     }

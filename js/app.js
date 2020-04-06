@@ -25,9 +25,12 @@ Add click event listeners to each of the onscreen keyboard buttons,
  should not result in the handleInteraction() method being called.
 */
 document.getElementById('qwerty').addEventListener('click', e => {
-    if (e.target.className == 'key') game.handleInteraction(e.target);
+    if (e.target.className == 'key') game.handleInteraction(e.target.textContent);
 });
 
+document.addEventListener('keyup', e => {
+    game.handleInteraction(e.key);
+})
 /*
 Resetting the gameboard between games.
 After a game is completed, the gameboard needs to be reset so that clicking 
