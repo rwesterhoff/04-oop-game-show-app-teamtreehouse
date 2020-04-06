@@ -12,6 +12,7 @@ let game = undefined;
 
 document.getElementById('btn__reset').addEventListener('click', () => {
     game = new Game(phrases);
+    if (document.querySelectorAll('.letter')) resetBoard();
     game.startGame();
 });
 
@@ -37,7 +38,15 @@ class, and not use the chosen or wrong CSS classes.
 Reset all of the heart images (i.e. the player's lives) in the scoreboard at 
 the bottom of the gameboard to display the liveHeart.png image.
 */
-
+function resetBoard() {
+    document.querySelector('#phrase ul').innerHTML = '';
+    document.querySelectorAll('#qwerty .key').forEach(key => {
+        key.className = 'key';
+    });
+    document.querySelectorAll('#scoreboard .tries img').forEach(heart => {
+        heart.setAttribute('src', 'images/liveHeart.png');
+    });
+}
 /* 
 Add good code comments
 Cross-Browser consistency:

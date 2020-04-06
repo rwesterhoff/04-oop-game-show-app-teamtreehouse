@@ -9,7 +9,7 @@ class Game {
         this.activePhrase = null;
         this.overlay = document.getElementById('overlay');
     }
-    
+
     /*
     Hides the start screen overlay, calls the getRandomPhrase() method, 
     and sets the activePhrase property with the chosen phrase. It also 
