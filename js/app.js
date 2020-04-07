@@ -3,14 +3,14 @@
  * app.js */
 
 // Initialize game
-const phrases = [
-    'Keep Your Eyes Peeled',
-    'Up In Arms',
-    'Cry Wolf',
-    'Quick and Dirty',
-    'Raining Cats and Dogs'
-];
 let game = undefined;
+const phrases = [
+        'Keep Your Eyes Peeled',
+        'Up In Arms',
+        'Cry Wolf',
+        'Quick and Dirty',
+        'Raining Cats and Dogs'
+    ];
 
 
 // Set button to start new game
@@ -38,6 +38,7 @@ function resetBoard() {
     // Reset onscreen keyboard
     document.querySelectorAll('#qwerty .key').forEach(key => {
         key.className = 'key';
+        key.disabled = false;
     });
     // Reset heart images
     document.querySelectorAll('#scoreboard .tries img').forEach(heart => {

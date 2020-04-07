@@ -1,0 +1,957 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remove",
+				"removeMessage"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"rege",
+				"regex"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"des",
+				"designOptions"
+			],
+			[
+				"job",
+				"jobRoleSelect"
+			],
+			[
+				"sele",
+				"selectPayment"
+			],
+			[
+				"paym",
+				"paymentSelected"
+			],
+			[
+				"pa",
+				"paymentCredit"
+			],
+			[
+				"rese",
+				"resetPaymentSelect"
+			],
+			[
+				"sleec",
+				"selectedIndex"
+			],
+			[
+				"sle",
+				"selectedIndex"
+			],
+			[
+				"se",
+				"selectedIndex"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"cred",
+				"credit"
+			],
+			[
+				"rep",
+				"resetPaymentSelect"
+			],
+			[
+				"sel",
+				"selectPayment"
+			],
+			[
+				"rem",
+				"removeMessage"
+			],
+			[
+				"val",
+				"validateActivities"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"check",
+				"checkBox"
+			],
+			[
+				"chec",
+				"checkBox"
+			],
+			[
+				"errorM",
+				"errorMessageClass"
+			],
+			[
+				"err",
+				"errorMessageClass"
+			],
+			[
+				"elem",
+				"elementSibling"
+			],
+			[
+				"control",
+				"controlErrorMessage"
+			],
+			[
+				"error",
+				"errorClass"
+			],
+			[
+				"va",
+				"validation"
+			],
+			[
+				"ac",
+				"activityField"
+			],
+			[
+				"erro",
+				"errorMessage"
+			],
+			[
+				"zi",
+				"zipCode"
+			],
+			[
+				"emes",
+				"errorMessage"
+			],
+			[
+				"er",
+				"errorMessage"
+			],
+			[
+				"cr",
+				"credit-card"
+			],
+			[
+				"aci",
+				"activities"
+			],
+			[
+				"create",
+				"createMessage"
+			],
+			[
+				"errmes",
+				"errorMessage"
+			],
+			[
+				"cal",
+				"classList"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"colorSe",
+				"colorSection"
+			],
+			[
+				"colorS",
+				"colorSection"
+			],
+			[
+				"rg",
+				"rgba()\tbackground-color"
+			],
+			[
+				"bacl",
+				"background-color\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"tr",
+				"transparent\tborder-color"
+			],
+			[
+				"email",
+				"emailField"
+			],
+			[
+				"na",
+				"nameField"
+			],
+			[
+				"ad",
+				"add"
+			],
+			[
+				"bac",
+				"background-origin\tproperty"
+			],
+			[
+				"background",
+				"background-repeat\tproperty"
+			],
+			[
+				"back",
+				"background-position\tproperty"
+			],
+			[
+				"backg",
+				"background-size\tproperty"
+			],
+			[
+				"cre",
+				"creditCardNumber"
+			],
+			[
+				"acti",
+				"activities"
+			],
+			[
+				"sub",
+				"submitButton"
+			],
+			[
+				"reg",
+				"regexChars"
+			],
+			[
+				"re",
+				"replace"
+			],
+			[
+				"ing",
+				"ignTxt"
+			],
+			[
+				"ign",
+				"ignChars"
+			],
+			[
+				"to",
+				"toggleColorOptions"
+			],
+			[
+				"dei",
+				"designOptions"
+			],
+			[
+				"inner",
+				"innerText"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"def",
+				"defaultOption"
+			],
+			[
+				"col",
+				"colorSelect"
+			],
+			[
+				"colo",
+				"colorSelect"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"chek",
+				"checked"
+			],
+			[
+				"ema",
+				"emailField"
+			],
+			[
+				"name",
+				"nameField"
+			],
+			[
+				"paypal",
+				"paypal"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"fsi",
+				"font-size\tproperty"
+			],
+			[
+				"que",
+				"querySelector"
+			],
+			[
+				"pick",
+				"pickedCost"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"total",
+				"totalCosts"
+			],
+			[
+				"activ",
+				"activityField"
+			],
+			[
+				"pi",
+				"pickedCost"
+			],
+			[
+				"tota",
+				"totalCosts"
+			],
+			[
+				"disab",
+				"disabled"
+			],
+			[
+				"very",
+				"verifyState"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"picked",
+				"pickedActivity"
+			],
+			[
+				"da",
+				"dayAndTime"
+			],
+			[
+				"dat",
+				"dataset"
+			],
+			[
+				"siblin",
+				"siblingCheckBox"
+			],
+			[
+				"sib",
+				"siblingCheckBox"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"all",
+				"allCheckBoxes"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"picek",
+				"pickedDate"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"color",
+				"colorOptions"
+			],
+			[
+				"Sele",
+				"select"
+			],
+			[
+				"desi",
+				"designOptions"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"other",
+				"other-field"
+			],
+			[
+				"field",
+				"fieldset"
+			],
+			[
+				"text",
+				"textField"
+			],
+			[
+				"q",
+				"querySelectorAll"
+			],
+			[
+				"slect",
+				"selected"
+			],
+			[
+				"do",
+				"document"
+			],
+			[
+				"firs",
+				"firstField"
+			],
+			[
+				"togg",
+				"toggleNav"
+			],
+			[
+				"fil",
+				"fill"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"co",
+				"counterClickButton"
+			],
+			[
+				"scal",
+				"scaleX()"
+			],
+			[
+				"for",
+				"forwards"
+			],
+			[
+				"toggl",
+				"toggle-state"
+			],
+			[
+				"backgru",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"tog",
+				"toggleNav"
+			],
+			[
+				"toglg",
+				"toggle-nav"
+			],
+			[
+				"merge",
+				"mergeValues"
+			],
+			[
+				"prof",
+				"profileJSON"
+			],
+			[
+				"user",
+				"userRoute"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"image",
+				"image-normal"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"sr",
+				"scripts"
+			],
+			[
+				"hide",
+				"hideAllShowOne"
+			],
+			[
+				"vi",
+				"viewPortBodyTop"
+			],
+			[
+				"clik",
+				"clicked"
+			],
+			[
+				"scrol",
+				"scrollToModule"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instll",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"gpcb",
+				"Git: Push Current Branch"
+			],
+			[
+				"gceh",
+				"Git: Checkout"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"gm",
+				"Git: Merge"
+			],
+			[
+				"gc",
+				"Git: Checkout"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gcb",
+				"Git: Push Current Branch"
+			],
+			[
+				"gcpb",
+				"Git: Push Current Branch"
+			],
+			[
+				"gpc",
+				"Git: Push Current Branch"
+			],
+			[
+				"gpull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"gcp",
+				"Git: Push Current Branch"
+			],
+			[
+				"ga",
+				"Git: Quick Add"
+			],
+			[
+				"gch",
+				"Git: Checkout"
+			],
+			[
+				"wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"gp",
+				"Git: Push Current Branch"
+			],
+			[
+				"gpush",
+				"Git: Push Current Branch"
+			],
+			[
+				"gi",
+				"Git: Checkout"
+			],
+			[
+				"g",
+				"Git: Status"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"About"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 54.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step1 - Introducing the Project/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step2 - Review Provided Code/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step5 - Creating Class Files/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step4 - Class Planning Solution/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step3 - Planning the Classes/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/ObjectOrientedJavaScriptByExample/Stage1 - Introducing Four in a Row/Stage1Step2 - Review Provided Code/css/style.css",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/04-oop-game-show-app-teamtreehouse/js/Phrase.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/04-oop-game-show-app-teamtreehouse/js/Game.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/README.md",
+		"/Users/robinwesterhoff/Downloads/oop_game-v2/example_phrase_html.txt",
+		"/Users/robinwesterhoff/Downloads/oop_game-v2/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/04-oop-game-show-app-teamtreehouse/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/04-oop-game-show-app-teamtreehouse/README.md",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/js/script.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/assets/times-circle.svg",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/css/style.css",
+		"/Users/robinwesterhoff/Desktop/draft.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/01-random-quote-generator-teamtreehouse/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/06_validating_a_phone/index.html",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/06_validating_a_phone/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/07_validating_a_email_final/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/05_validating_a_password/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/05_validating_a_password_final/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/04_validating_a_username/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/courses/js_regular_expressions_project_files/02_validating_a_form/04_validating_a_username_final/js/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/css/normalize.css",
+		"/Users/robinwesterhoff/Sites/treehouse-techdegree/fullstack-javascript/portfolio/03-interactive-form-teamtreehouse/script.js",
+		"/Users/robinwesterhoff/Sites/portfolio/pages/index.vue",
+		"/Users/robinwesterhoff/Sites/portfolio/components/Logo.vue",
+		"/Users/robinwesterhoff/Sites/portfolio/assets/style-params.scss",
+		"/Users/robinwesterhoff/Sites/portfolio/package.json",
+		"/Users/robinwesterhoff/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/Default (OSX).sublime-keymap",
+		"/Users/robinwesterhoff/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/Users/robinwesterhoff/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/robinwesterhoff/Library/Application Support/Sublime Text 3/Packages/User/Terminal (OSX).sublime-settings",
+		"/Users/robinwesterhoff/Downloads/um3ext.svg",
+		"/Users/robinwesterhoff/Downloads/um3.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-designsystem/src/assets/icons/instagram.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-designsystem/src/assets/icons/single-extrusion.svg",
+		"/Users/robinwesterhoff/Desktop/single-extrusion.svg",
+		"/Users/robinwesterhoff/Downloads/greensock-js-with-customease/src/bonus-files-for-npm-users/CustomEase.js",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/node_modules/ua-parser-js/src/ua-parser.js",
+		"/Users/robinwesterhoff/Desktop/maps-styling.json",
+		"/Users/robinwesterhoff/Sites/old-site/index.html",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/patternlab/patterns/030-organisms/080-cases/010-case.json",
+		"/Users/robinwesterhoff/Desktop/_explore.scss",
+		"/Users/robinwesterhoff/Desktop/arrow-down.svg",
+		"/Users/robinwesterhoff/Desktop/arrow-up.svg",
+		"/Users/robinwesterhoff/Desktop/070-explore.mustache",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/src/icons/arrow-down.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/src/icons/arrow-up.svg",
+		"/Users/robinwesterhoff/Desktop/test.mustache",
+		"/Users/robinwesterhoff/Desktop/linkedin.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/src/icons/volume.svg",
+		"/Users/robinwesterhoff/Desktop/arrow-left--animation.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/src/icons/resolution.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/src/icons/arrow-left.svg",
+		"/Users/robinwesterhoff/Downloads/-.html",
+		"/Users/robinwesterhoff/Downloads/-.js",
+		"/Users/robinwesterhoff/Desktop/close-nav-assist.svg",
+		"/Users/robinwesterhoff/Desktop/menu-nav-assist.svg",
+		"/Users/robinwesterhoff/Desktop/package.json",
+		"/Users/robinwesterhoff/Desktop/patternlab-config.json",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/Ultimaker.com-frontend/src/icons/show.svg",
+		"/Users/robinwesterhoff/Sites/Ultimaker.com-frontend/Ultimaker.com-frontend/src/icons/angle-right.svg",
+		"/Users/robinwesterhoff/Downloads/Exercise/index.html",
+		"/Users/robinwesterhoff/Downloads/Exercise/app.js",
+		"/Users/robinwesterhoff/Downloads/Exercise 4/styles.css",
+		"/Users/robinwesterhoff/Downloads/Exercise 4/index.html",
+		"/Users/robinwesterhoff/Desktop/test.html",
+		"/Users/robinwesterhoff/Downloads/Exercise 4/app.js",
+		"/Users/robinwesterhoff/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/robinwesterhoff/Desktop/test.scss",
+		"/Applications/MAMP/Library/share/ghostscript/9.20/doc/gsdoc.el",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/youtube.svg",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/instagram.svg",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/twitter.svg",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/facebook.svg",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/store.svg",
+		"/Users/robinwesterhoff/Downloads/Exercise 3/app.js",
+		"/Users/robinwesterhoff/Downloads/Exercise 3/index.html",
+		"/Users/robinwesterhoff/Downloads/Exercise 2/app.js",
+		"/Users/robinwesterhoff/Downloads/Exercise 2/index.html",
+		"/Users/robinwesterhoff/Desktop/untitled",
+		"/Users/robinwesterhoff/Downloads/Exercise 1/index.html",
+		"/Users/robinwesterhoff/Desktop/010-test",
+		"/Users/robinwesterhoff/Downloads/convertcsv.json",
+		"/Users/robinwesterhoff/Desktop/test.css",
+		"/test.css",
+		"/Users/robinwesterhoff/Desktop/_icon-button.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/service.svg",
+		"/Users/robinwesterhoff/Desktop/icons/service.svg",
+		"/Users/robinwesterhoff/Sites/robinwesterhoff/Portfolio-frontend/portfolio/javascript/package.json",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/material-new.svg",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/refresh-new.svg",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/icons/robot-ultimaker.svg",
+		"/Users/robinwesterhoff/Desktop/icons/store.svg",
+		"/Users/robinwesterhoff/Desktop/demo-UM/close-03.html",
+		"/private/var/folders/b1/df3jh2h928n86jrng1ystjnr0000gn/T/fz3temp-2/style.css",
+		"/Users/robinwesterhoff/Desktop/demo-UM/close.html",
+		"/Users/robinwesterhoff/Desktop/close.html",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/patternlab/patterns/010-atoms/020-text/030-inline-elements.mustache",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/tools/mixins/_helpers.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/atomic/molecules/_price-table.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/tools/_all.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/atomic/molecules/_modal.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/atomic/atoms/_root-elements.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/atomic/atoms/_lists.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/atomic/atoms/_type.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/settings/_variables.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/src/scss/tools/_breakpoints.scss",
+		"/Users/robinwesterhoff/CloudStation/Ultimaker/Ultimaker.com-frontend/patternlab/patterns/010-atoms/010-global/010-brand-colors.mustache",
+		"/Users/robinwesterhoff/Desktop/style.css",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/renderer.js",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/app.js",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/router.js",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/views/error.html",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/views/profile.html",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/views/footer.html",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/views/header.html",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/views/search.html",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/profile.js",
+		"/Users/robinwesterhoff/Sites/treehouse-javascript/example_profile.js",
+		"/Users/robinwesterhoff/Downloads/iPadDemo.kite/Assets/Xcode App.js",
+		"/Users/robinwesterhoff/Downloads/iPadDemo.kite/Assets/Xcode Icon.js",
+		"/Users/robinwesterhoff/Downloads/iPadDemo.kite/Assets/Maps Icon.js",
+		"/Users/robinwesterhoff/Downloads/iPadDemo.kite/Assets/Screen.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-checkout":
+	{
+		"height": 112.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-pull":
+	{
+		"height": 112.0
+	},
+	"output.git-push":
+	{
+		"height": 112.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 507.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

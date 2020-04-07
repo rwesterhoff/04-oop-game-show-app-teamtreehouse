@@ -12,7 +12,7 @@ class Game {
 
     startGame() {
         // Hide initial overlay
-        this.overlay.style.display = 'none';
+        this.overlay.classList.add('animated', 'flipOutX');
         // Call a random phrase
         this.activePhrase = new Phrase(this.getRandomPhrase());
         // Add the phrase to the board
@@ -33,7 +33,7 @@ class Game {
             keys.forEach(key => {
                 if (key.textContent == letter) {
                     key.classList.add(styling)
-                    key.setAttribute('disabled', 'disabled');
+                    key.disabled = true;
                 }
             })
         };
@@ -76,6 +76,8 @@ class Game {
     gameOver(styling, message) {
         // Set styling and message of the game over
         this.overlay.className = styling;
+        this.overlay.classList.remove('animated','flipOutX');
+        this.overlay.classList.add('animated','flipInX');
         this.overlay.style.display = 'inherit';
         this.overlay.firstElementChild.textContent = message;
     }
