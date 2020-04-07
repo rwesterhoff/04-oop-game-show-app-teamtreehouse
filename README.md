@@ -9,3 +9,6 @@ JavaScript classes with specific properties and methods.
 
 ## Additional
 Aiming for 'exceeds expectation'.
+
+## Styling
+I've added animation styles for a better experience with the (dis)appearance of the overlay.
