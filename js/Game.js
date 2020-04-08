@@ -8,6 +8,7 @@ class Game {
         this.phrases = phrases;
         this.activePhrase = null;
         this.overlay = document.getElementById('overlay');
+        this.resetBtn = document.getElementById('btn__reset');
     }
 
     startGame() {
@@ -22,7 +23,7 @@ class Game {
     getRandomPhrase() {
         let count = Math.floor(Math.random() * this.phrases.length);
         // Retrieve one of the phrases provided
-        return this.phrases[count];
+        return this.phrases[count].phrase;
     }
 
     handleInteraction(letter) {
@@ -80,5 +81,6 @@ class Game {
         this.overlay.classList.add('animated','flipInX');
         this.overlay.style.display = 'inherit';
         this.overlay.firstElementChild.textContent = message;
+        this.resetBtn.disabled = false;
     }
 }

@@ -5,19 +5,20 @@
 // Initialize game
 let game = undefined;
 const phrases = [
-        'Keep Your Eyes Peeled',
-        'Up In Arms',
-        'Cry Wolf',
-        'Quick and Dirty',
-        'Raining Cats and Dogs'
-    ];
+    { phrase: 'Keep Your Eyes Peeled' },
+    { phrase: 'Up In Arms' },
+    { phrase: 'Cry Wolf' },
+    { phrase: 'Quick and Dirty' },
+    { phrase: 'Raining Cats and Dogs' }
+];
 
 
 // Set button to start new game
-document.getElementById('btn__reset').addEventListener('click', () => {
+document.getElementById('btn__reset').addEventListener('click', e => {
     game = new Game(phrases);
     if (document.querySelectorAll('.letter')) resetBoard();
     game.startGame();
+    e.target.disabled = true;
 });
 
 // Set the keys of onscreen keyboard
